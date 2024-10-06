@@ -1,0 +1,11 @@
+.appLayout {
+    width: 100%;
+    padding: 5rem;
+}
+
+.appLayout section {
+    display: grid;
+    grid-template-columns: 40fr 60fr;
+    height: 85vh;
+    background-color: #212529;
+}

@@ -1,0 +1,36 @@
+.btn {
+    display: inline-block;
+    padding: 1.5rem 3rem;
+    border: none;
+    border-radius: 0.7rem;
+    color: #495057;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.4rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.primary {
+    background-color: #51cf66;
+    color: #495057;
+}
+
+.secondary {
+    background-color: inherit;
+    border: 1px solid #adb5bd;
+    color: #e9ecef;
+}
+
+.position {
+    font-weight: 700;
+    position: absolute;
+    z-index: 1000;
+    font-size: 1.4rem;
+    bottom: 4rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #51cf66;
+    color: #495057;
+    box-shadow: 0 0.4rem 1.2rem rgba(36, 42, 46, 0.16);
+}

@@ -1,0 +1,30 @@
+.product {
+    width: 100%;
+}
+
+.product section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+    padding: 5rem;
+}
+
+.product img {
+    height: 40rem;
+}
+
+.product div {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.product h2 {
+    font-size: 3.6rem;
+}
+
+.product p {
+    line-height: 1.5;
+}

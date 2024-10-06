@@ -1,0 +1,31 @@
+.nav {
+    /* background-color: aquamarine; */
+    padding: 2rem 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4rem;
+}
+
+.nav a:link,
+.nav a:visited {
+    text-decoration: none;
+    color: #e9ecef;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.7rem;
+    transition: all 0.3s;
+}
+
+.nav a:global(.active) {
+    color: #2f9e44;
+}

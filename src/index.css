@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css";
+
+:root {
+    --body-backgroundcolor: #495057;
+    --body-textcolor-dark: #495057;
+    --body-textcolor-light: #e9ecef;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    background-color: var(--body-backgroundcolor);
+    color: var(--body-textcolor-light);
+}
+
+input,
+textarea {
+    border: none;
+    border-radius: 0.7rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: #495057;
+    font-family: inherit;
+    cursor: text;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+}
